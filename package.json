@@ -1,0 +1,29 @@
+{
+  "name": "gamearoo-streams-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GamearooCodes/Gamearoo-Streams-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GamearooCodes/Gamearoo-Streams-Bot/issues"
+  },
+  "homepage": "https://github.com/GamearooCodes/Gamearoo-Streams-Bot#readme",
+  "dependencies": {
+    "discord-helper.js": "^4.0.1",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "ram-api.js": "^12.1.11",
+    "tmi.js": "^1.8.5",
+    "twitch-channel": "^1.0.1"
+  }
+}
