@@ -42,7 +42,7 @@ client.on('message', async (channel, tags, message, self) => {
             client.say(channel, `https://discord.gg/tUpsrAmkqp`);
             break;
         case "help":
-            client.say(channel, `Commands: !hello, !discord, !help`)
+            client.say(channel, `Commands: !hello, !discord, !help, !nextstream`)
             break;
         case "nextstream":
             client.say(channel, await getNext(moment().format("M/D/YYYY")));
